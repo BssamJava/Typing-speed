@@ -1,0 +1,45 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(129, 129, 109);
+    
+}
+input{
+    width: 500px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+}
+button{
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border: 1px;
+    border-style:groove;
+    border-color: black;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid black;
+}
+#Instruction{
+    margin-top: 20px;
+    
+}
+.highlight {
+	background-color: yellow;
+}
+
+.error {
+	background-color: lightcoral;
+	border-color: red;
+}
